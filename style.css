@@ -1,0 +1,334 @@
+
+
+
+*{
+   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*nav bar*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.header__row{
+    width: 100%;
+    height: 8vh;
+   background-color: rgb(0, 0, 0);
+  position: fixed;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 10px;
+}
+
+
+
+
+.header__row  a{
+    text-decoration: none;
+    color: white;
+    transition: 0.6s ease;
+    border: none;
+    padding-top: 3vh;
+    height:  8vh;
+    width: 15vw;
+    font-size: larger;
+    font-weight: bold;
+    transition: 0.6;
+    
+   
+}
+
+/*intro section*/
+.intro__section{
+    height: 100vh;
+    width: 100%;
+    background-color: #3c3333;
+    background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://t4.ftcdn.net/jpg/05/90/13/89/360_F_590138937_mF4O0QI7S72o4tuCk96AyXbEahuJiLJL.jpg);
+    background-size: cover;
+   background-position: center;
+
+}
+
+.intro__img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100rem;
+    float: right;
+    margin-top: 35vh;
+    margin-right: 18vw;
+ 
+}
+
+.resume__a{
+    color: #fff;
+   
+}
+
+.intro__items__div{
+    width: 100%;
+    height: 20vh;
+    font-weight: bold;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 35vh;
+    padding-left: 20vw;
+  
+}
+.intro__para{
+    color: #fff;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.intro__h1{
+    color: #fff;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+.intro__h2{
+    color: #fff;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.intro__button{
+    width: 5rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+ 
+}
+
+.intro__items, img{
+    height: 3rem;
+    width: 3rem;
+    margin-top: 1rem;
+    margin: 5px;
+   
+}
+.intro__img__youtube{
+    height: 3rem;
+    width: 4rem;
+}
+   .social__media{
+    padding-top: 20px;
+   }
+
+/*about section*/
+
+.about__section__div{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+
+}
+.about__section__h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2vh;
+   
+}
+
+.about__myself__card{
+ float: right;
+ padding-right: 20vw;
+ padding-top: 5vh;
+ width: 60vw;
+ 
+}
+
+.about__myself__para{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my__skills__card{
+    float: left;
+    padding-left: 20vw;
+    padding-top: 15vh;
+    width: 60vw;
+    color: white;
+   
+ 
+}
+
+
+
+/* My projects section */ 
+
+
+.projects__section__div{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),  url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUOl25d9pYvCYRceOJSTpoOPYheoYgERQkA&usqp=CAU);;
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.projects__header{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 3vh;
+font-size: 3rem;
+}
+
+.project__card{
+    padding-top: 8vh;
+   
+    width: 20vw;
+   
+}
+
+.project__card__header{
+    padding-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project__card__para{
+ 
+padding-top: 2vh;
+padding-bottom: 2vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.project__card__image{
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project__card__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.all__project__cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*contact section*/
+
+.contact__section{
+    width: 100%;
+    height: 75vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40vh;
+}
+
+form{
+   height: 10vh;
+   width: 50vw;
+
+}
+
+.input__group{
+    margin-bottom: 3vh;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 1vh;
+    outline: 0;
+    border: 1px solid white;
+    color: #fff;
+    background: transparent;
+    font-size: 1rem;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1vh;
+    color: #fff;
+    cursor: text;
+}
+
+button {
+    padding: 1vh 0;
+    color: rgb(255, 255, 255);
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 100%;
+    cursor: pointer; 
+    transition: 0.8s ease;
+}
+
+
+button:hover{
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+
+}
+
+a:hover{
+   
+    color: rgb(3, 100, 227);
+    font-weight: bold;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -2rem;
+    font-size: 1rem;
+}
+
+.contact__header{
+    padding-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: #fff;
+  font-size: 2rem;
+}
+
+/*ending bar*/
+
+.ending__bar__div{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 6vh;
+}
+
+
+.ending__bar__h2{
+    color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: x-small;
+   padding-top: 20px;
+}
